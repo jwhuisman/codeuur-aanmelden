@@ -21,6 +21,13 @@ main{
 			color: $text-color;
 		}
 	}
+	textarea{
+		resize: none;
+	}
+}
+
+#teamBtn{
+	margin-top: 16px;
 }
 
 #teammembers{

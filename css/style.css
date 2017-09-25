@@ -13,6 +13,8 @@ main {
   main header h1 {
     text-align: center;
     color: white; }
+  main textarea {
+    resize: none; }
 
 #teammembers {
   border-left: 1px solid #ffffff;

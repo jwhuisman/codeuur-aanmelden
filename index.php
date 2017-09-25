@@ -28,6 +28,7 @@
 				<section class="col-md-9">
 					<h2>Teamlid toevoegen</h2>
 					<form id="newMemberFrm" action="#" onsubmit="event.preventDefault(); submitForm();">
+						<div class="col-md-6">
 						<div class="form-group">
 						    <label>Studentnummer</label>
 						    <input type="text" class="form-control required" name="student_id" placeholder="Studentnummer">
@@ -51,13 +52,16 @@
 						<div class="form-group">
 						    <label><input type="checkbox" name="contact_to_school" id="contact_to_school" checked="checked"> </label> Mijn contactgegevens mogen aan de basisschool worden doorgegeven
 						</div>
+						</div>
+						<div class="col-md-6">
 						<div class="form-group">
 						    <label>Over mij</label>
-						   <textarea class="form-control required" name="about" rows="4"></textarea>
+						   <textarea class="form-control required" name="about" rows="7"></textarea>
 						</div>
 						<div class="form-group">
 						    <label>Waarom jouw opleiding</label>
-						   <textarea class="form-control required" name="study" rows="4"></textarea>
+						   <textarea class="form-control required" name="study" rows="7"></textarea>
+						</div>
 						</div>
 						<button class="btn btn-success pull-right" id="saveBtn"><i class="fa fa-save"></i> Toevoegen</button>
 					</form>
