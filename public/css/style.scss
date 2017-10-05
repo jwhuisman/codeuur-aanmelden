@@ -1,0 +1,45 @@
+$background-color: rgba(0, 0, 0, 0.6);
+$text-color: rgb(255,255,255);
+
+body{
+	background-image: url(grfx/bg.jpg);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+    color: #ffffff;
+}
+
+main{
+	background-color: $background-color;
+	padding-bottom: 20px;
+	header{
+		& > p{
+			text-align: center;
+		}
+		h1{
+			text-align: center;
+			color: $text-color;
+		}
+	}
+	textarea{
+		resize: none;
+	}
+}
+
+#teamBtn{
+	margin-top: 16px;
+}
+
+#teammembers{
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+	margin-top: 20px;
+	.teammember{
+		border-bottom: 1px solid #ffffff;
+		padding: 0px 20px 10px;
+		h3{
+			font-size: 16px;
+		}
+	}
+}
